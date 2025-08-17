@@ -1,0 +1,98 @@
+/* Hero.css */
+
+.banner-area {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  min-height: 100vh;
+}
+
+.banner-area .animated-bubble {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.banner-area .animated-bubble img {
+  position: absolute;
+  z-index: 9;
+  animation-iteration-count: infinite;
+}
+
+.banner-area .animated-bubble img:first-child {
+  top: 120px;
+  left: 50px;
+  animation: zoomUpDown 5s linear infinite;
+}
+
+/* (Other bubble animations and positions as per global CSS omitted for brevity) */
+
+.banner-area .carousel-item {
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+}
+
+.banner-area .content h4 {
+  font-weight: 400;
+  text-transform: uppercase;
+  animation-delay: .3s;
+}
+
+.banner-area .content h2 {
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 1;
+  margin-bottom: 30px;
+  animation-delay: .9s;
+}
+
+.carousel-control {
+  background: transparent;
+  width: 60px;
+  height: 60px;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: all 0.35s ease-in-out;
+  color: white;
+  text-align: center;
+}
+
+.banner-area:hover .carousel-control {
+  opacity: 1;
+}
+
+.carousel-control.left {
+  left: 50px;
+}
+
+.carousel-control.right {
+  right: 50px;
+}
+
+@keyframes zoomUpDown {
+  0%, 100% { transform: scale(0.5); }
+  50% { transform: scale(0.8); }
+}
+
+/* Responsive */
+
+@media (max-width: 991px) {
+  .banner-area .content h2 {
+    font-size: 40px;
+  }
+  .banner-area .content h4 {
+    font-size: 18px;
+  }
+  .banner-area {
+    padding: 80px 15px;
+  }
+  .carousel-control {
+    width: 40px;
+    height: 40px;
+  }
+}

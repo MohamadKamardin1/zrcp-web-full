@@ -1,0 +1,74 @@
+/* ServicesTypes.css */
+
+.services-types-area {
+  position: relative;
+  z-index: 1;
+  color: white;
+  padding: 120px 15px;
+  background-color: var(--color-primary);
+}
+
+.services-types-area .fixed-shape {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  text-align: right;
+  pointer-events: none;
+}
+
+.services-types-area .buble-shape {
+  position: absolute;
+  left: -100px;
+  top: -50px;
+  pointer-events: none;
+}
+
+.services-types-area .item {
+  margin-bottom: 50px;
+}
+
+.services-types-area .item h5 {
+  text-transform: uppercase;
+  opacity: 0.8;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.services-types-area .item h2 {
+  font-weight: 600;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+
+.services-types-area .item .thematic {
+  font-weight: 600;
+  color: white;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.services-types-area .thumb {
+  margin-left: 70px;
+}
+
+.services-types-area .thumb img.themes {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+
+/* Responsive */
+
+@media (max-width: 1024px) {
+  .services-types-area .thumb {
+    margin-left: 0;
+    text-align: center;
+  }
+  .services-types-area .item {
+    text-align: center;
+  }
+  .services-types-area .item h2 {
+    font-size: 24px;
+  }
+}

@@ -4,14 +4,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules"; 
 import "swiper/css";
 import "swiper/css/autoplay";
+import { MarginOutlined } from "@mui/icons-material";
 
 const partners = [
-  { src: "img/partners/smz.png", alt: "smz" },
-  { src: "img/partners/UNCDF.png", alt: "UNCDF" },
-  { src: "img/partners/natherlands.png", alt: "Natherlands" },
-  { src: "img/partners/nyu_abudhabi.png", alt: "NYU Abu Dhabi" },
-  { src: "img/partners/oxford.png", alt: "Oxford" },
-  { src: "img/partners/swizeriche.png", alt: "Swizeriche", style: { height: "fit-content", width: "fit-content" } },
+  { src: "/img/partners/smz.png", alt: "smz" },
+  { src: "/img/partners/UNCDF.png", alt: "UNCDF" },
+  { src: "/img/partners/natherlands.png", alt: "Natherlands" },
+  { src: "/img/partners/nyu_abudhabi.png", alt: "NYU Abu Dhabi" },
+  { src: "/img/partners/oxford.png", alt: "Oxford" },
+  { src: "/img/partners/swizeriche.png", alt: "Swizeriche", style: { height: "fit-content", width: "fit-content" } },
 ];
 
 const Partners = () => {
@@ -21,7 +22,7 @@ const Partners = () => {
         <div className="row">
           <div className="col-lg-8 offset-lg-2">
             <div className="site-heading text-center">
-              <h2>Our Partners</h2>
+              <h2 style={{ marginTop: "90px" }}>Our Partners</h2>
               <div className="devider"></div>
             </div>
           </div>

@@ -23,7 +23,7 @@ const Blog = () => {
             <div className="single-item col-lg-4 col-md-6">
               <div className="item blog">
                 <div className="thumb">
-                  <img src="img/blogs/financing.jpeg" alt="Thumb" />
+                  <img src="/img/blogs/financing.jpeg" alt="Thumb" />
                 </div>
               </div>
             </div>
@@ -31,7 +31,7 @@ const Blog = () => {
             <div className="single-item col-lg-4 col-md-6">
               <div className="item blog">
                 <div className="thumb">
-                  <img src="img/blogs/good_governance.jpeg" alt="Thumb" />
+                  <img src="/img/blogs/good_governance.jpeg" alt="Thumb" />
                 </div>
               </div>
             </div>
@@ -39,7 +39,7 @@ const Blog = () => {
             <div className="single-item col-lg-4 col-md-6">
               <div className="item">
                 <div className="thumb blog">
-                  <img src="img/blogs/hsitory.jpeg" alt="Thumb" />
+                  <img src="/img/blogs/hsitory.jpeg" alt="Thumb" />
                 </div>
               </div>
             </div>

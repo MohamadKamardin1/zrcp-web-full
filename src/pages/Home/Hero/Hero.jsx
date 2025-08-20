@@ -7,20 +7,20 @@ const Hero = () => {
   return (
     <div className="banner-area top-pad-extra text-regular right-shape content-less">
       <div className="animated-bubble">
-        <img src="img/shape/bubble.png" alt="Bubble" />
-        <img src="img/shape/bubble-mini.png" alt="Bubble" />
-        <img src="img/shape/bubble.png" alt="Bubble" />
-        <img src="img/shape/bubble.png" alt="Bubble" />
-        <img src="img/shape/bubble-mini.png" alt="Bubble" />
-        <img src="img/shape/bubble.png" alt="Bubble" />
-        <img src="img/shape/bubble-mid.png" alt="Bubble" />
+        <img src="/img/shape/bubble.png" alt="Bubble" />
+        <img src="/img/shape/bubble-mini.png" alt="Bubble" />
+        <img src="/img/shape/bubble.png" alt="Bubble" />
+        <img src="/img/shape/bubble.png" alt="Bubble" />
+        <img src="/img/shape/bubble-mini.png" alt="Bubble" />
+        <img src="/img/shape/bubble.png" alt="Bubble" />
+        <img src="/img/shape/bubble-mid.png" alt="Bubble" />
       </div>
 
       <div id="bootcarousel" className="carousel text-light slide animate_text" data-ride="carousel">
         <div className="carousel-inner">
           <div
             className="carousel-item active bg-cover"
-            style={{ backgroundImage: "url(img/bg-image2.png)" }}
+            style={{ backgroundImage: "url(/img/bg-image2.png)" }}
           >
             <div className="box-table">
               <div className="box-cell shadow gradient">
@@ -42,7 +42,7 @@ const Hero = () => {
 
           <div
             className="carousel-item bg-cover"
-            style={{ backgroundImage: "url(img/bg-image.png)" }}
+            style={{ backgroundImage: "url(/img/bg-image.png)" }}
           >
             <div className="box-table">
               <div className="box-cell shadow gradient">

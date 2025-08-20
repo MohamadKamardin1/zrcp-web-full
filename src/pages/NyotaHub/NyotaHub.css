@@ -1,0 +1,113 @@
+.nyota-hub-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  background: #ffffff;
+  min-height: 100vh;
+}
+
+.hero-section {
+  position: relative;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  background-blend-mode: overlay;
+  background-color: rgb(255, 255, 255);
+}
+
+.hero-overlay {
+  max-width: 600px;
+}
+
+.hero-overlay h1 {
+  font-weight: 800;
+  font-size: 2.5rem;
+  margin: 0 0 0.6rem;
+}
+
+.hero-overlay p {
+  font-size: 1rem;
+  margin: 0.2rem 0;
+  font-weight: 400;
+}
+
+.hashtag {
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.tabs-menu {
+  background: #ffffffe3;
+  border-bottom: 3px solid #2cace3;
+}
+
+.tabs-menu ul {
+  list-style: none;
+  display: flex;
+  padding: 0 2rem;
+  margin: 0;
+}
+
+.tabs-menu li {
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  position: relative;
+  user-select: none;
+  color: #ddd;
+  transition: color 0.3s ease;
+}
+
+.tabs-menu li:hover {
+  color: #2cace3;
+}
+
+.tabs-menu li.active {
+  color: #2cace3;
+}
+
+.underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #2cace3;
+}
+
+/* Tab Content Styling */
+.tab-content {
+  padding: 2rem;
+  background: #ffffff;
+  color: #eee;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  border-radius: 6px;
+  box-shadow: 0 0 20px rgba(44,172,227,0.5);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-section {
+    height: 220px;
+    padding-left: 1rem;
+  }
+  .hero-overlay h1 {
+    font-size: 1.8rem;
+  }
+  .tabs-menu ul {
+    flex-wrap: wrap;
+  }
+  .tabs-menu li {
+    padding: 0.8rem 1rem;
+    font-size: 0.9rem;
+  }
+  .tab-content {
+    padding: 1rem;
+    margin: 0 1rem 2rem;
+    font-size: 0.9rem;
+  }
+}

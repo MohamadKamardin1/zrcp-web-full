@@ -1,6 +1,8 @@
 // src/components/Header.jsx
 import React from "react";
-import './Header.css'
+import { Link } from "react-router-dom";
+import './Header.css';
+
 const Header = () => {
   return (
     <>
@@ -9,13 +11,13 @@ const Header = () => {
         <div className="container">
           <div className="row align-center">
             <div className="col-lg-3 logo">
-              <a href="index2.html">
+              <Link to="/index2.html">
                 <img
-                  src="img/logo.png"
+                  src="/img/logo.png"
                   className="logo"
                   alt="Logo"
                 />
-              </a>
+              </Link>
             </div>
             <div className="col-lg-9 info item-flex space-between">
               <ul>
@@ -49,13 +51,13 @@ const Header = () => {
                     >
                       <i className="fa fa-bars"></i>
                     </button>
-                    <a className="navbar-brand" href="index.html">
+                    <Link className="navbar-brand" to="/index.html">
                       <img
-                        src="img/logo.png"
+                        src="/img/logo.png"
                         className="logo"
                         alt="Logo"
                       />
-                    </a>
+                    </Link>
                   </div>
 
                   {/* Navbar Collapse */}
@@ -67,32 +69,30 @@ const Header = () => {
                         data-out="fadeOutUp"
                       >
                         <li>
-                          <a href="#" className="active" data-toggle="dropdown">
+                          <Link to="/home" className="active" data-toggle="dropdown">
                             Home
-                          </a>
+                          </Link>
                         </li>
                         <li className="dropdown">
-                          <a
-                            href="about.html"
+                          <Link
+                            to="/About"
                             className="dropdown-toggle"
                             data-toggle="dropdown"
                           >
                             About Us
-                          </a>
+                          </Link>
                           <ul className="dropdown-menu">
                             <li>
-                              <a href="about.html#board">Board Members</a>
+                              <Link to="/Board">Board Members</Link>
                             </li>
                             <li>
-                              <a href="about.html#management">Management</a>
+                              <Link to="/Management">Management</Link>
                             </li>
                             <li>
-                              <a href="about.html#associates">
-                                Research Associates
-                              </a>
+                              <Link to="/Assosiate">Research Associates</Link>
                             </li>
                             <li>
-                              <a href="about.html#team">Team</a>
+                              <Link to="/Team">Team</Link>
                             </li>
                           </ul>
                         </li>
@@ -106,7 +106,7 @@ const Header = () => {
                         </li>
                         <li className="dropdown">
                           <a
-                            href="#"
+                            href="/project-research"
                             className="dropdown-toggle active"
                             data-toggle="dropdown"
                           >
@@ -114,54 +114,27 @@ const Header = () => {
                           </a>
                           <ul className="dropdown-menu">
                             <li>
-                              <a href="research.html">Research & Policy</a>
+                              <Link to="/research">Research & Policy</Link>
                             </li>
                             <li>
-                              <a href="projects_and_events.html#project">
-                                Project
-                              </a>
+                              <Link to="/projects">Project</Link>
                             </li>
                             <li>
-                              <a href="projects_and_events.html#events">Events</a>
+                              <Link to="/events">Events</Link>
                             </li>
                           </ul>
                         </li>
-                        <li className="dropdown">
-                          <a
-                            href="#"
-                            className="dropdown-toggle "
-                            data-toggle="dropdown"
-                          >
+                        <li>
+                          {/* Blog block simplified to a single link to /blog */}
+                          <Link to="/blog" className="dropdown-toggle">
                             Blog
-                          </a>
-                          <ul className="dropdown-menu">
-                            <li>
-                              <a href="./blog/Economic & Digital Transformation/Economic & Digital Transformation.html">
-                                Economic & Digital Transformation
-                              </a>
-                            </li>
-                            <li>
-                              <a href="./blog/Public & Private Financing/Public & Private Financing.html">
-                                Public & Private Financing
-                              </a>
-                            </li>
-                            <li>
-                              <a href="./blog/Social Protection/Social Protection.html">
-                                Social Protection
-                              </a>
-                            </li>
-                            <li>
-                              <a href="./blog/Good Governance/Good Governance.html">
-                                Good Governance
-                              </a>
-                            </li>
-                          </ul>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#contact">contact</a>
+                          <a href="/contact">contact</a>
                         </li>
                         <li>
-                          <a href="#">Nyota Hub</a>
+                          <a href="/nyotahub">Nyota Hub</a>
                         </li>
                       </ul>
                     </div>
@@ -173,7 +146,7 @@ const Header = () => {
                       <i className="icon_close"></i>
                     </a>
                     <div className="widget">
-                      <img src="img/logo.png" alt="Logo" />
+                      <img src="/img/logo.png" alt="Logo" />
                     </div>
                     <div className="widget address">
                       <div>

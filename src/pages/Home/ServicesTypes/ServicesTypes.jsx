@@ -7,12 +7,12 @@ const ServicesTypes = () => {
   return (
     <div className="services-types-area shadow overflow-hidden bg-theme text-light default-padding">
       <div className="fixed-shape">
-        <img src="img/shape/10.png" alt="Shape" />
+        <img src="/img/shape/10.png" alt="Shape" />
       </div>
       <div className="container">
         <div className="row align-center">
           <div className="buble-shape">
-            <img src="img/shape/bubble-light.png" alt="Bubble" />
+            <img src="/img/shape/bubble-light.png" alt="Bubble" />
           </div>
           <div className="col-lg-12">
             <div className="services-type-items services-type-carousel owl-carousel owl-theme">
@@ -27,7 +27,7 @@ const ServicesTypes = () => {
                   </div>
                   <div className="col-lg-6">
                     <div className="thumb">
-                      <img src="img/digital_transformation.jpg" className="themes" alt="Thumb" />
+                      <img src="/img/digital_transformation.jpg" className="themes" alt="Thumb" />
                     </div>
                   </div>
                 </div>
@@ -44,7 +44,7 @@ const ServicesTypes = () => {
                   </div>
                   <div className="col-lg-6">
                     <div className="thumb">
-                      <img src="img/financial_sector.png" className="themes" alt="Thumb" />
+                      <img src="/img/financial_sector.png" className="themes" alt="Thumb" />
                     </div>
                   </div>
                 </div>
@@ -61,7 +61,7 @@ const ServicesTypes = () => {
                   </div>
                   <div className="col-lg-6">
                     <div className="thumb">
-                      <img src="img/social_protection.jpg" className="themes" alt="Thumb" />
+                      <img src="/img/social_protection.jpg" className="themes" alt="Thumb" />
                     </div>
                   </div>
                 </div>
@@ -78,7 +78,7 @@ const ServicesTypes = () => {
                   </div>
                   <div className="col-lg-6">
                     <div className="thumb">
-                      <img src="img/good_governance.png" className="themes" alt="Thumb" />
+                      <img src="/img/good_governance.png" className="themes" alt="Thumb" />
                     </div>
                   </div>
                 </div>

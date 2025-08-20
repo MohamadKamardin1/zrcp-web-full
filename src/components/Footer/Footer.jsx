@@ -10,7 +10,7 @@ const Footer = () => {
             {/* About Section */}
             <div className="col-lg-4 col-md-6 item">
               <div className="f-item about">
-                <img src="img/logo.png" alt="Logo" />
+                <img src="/img/logo.png" alt="Logo" />
                 <p>
                   Be part of our dynamic research and innovation journey. Collaborate with us on impactful multisectoral research, policies, and evidence based projects that drive real change. Follow us on social media to stay informed on our latest initiatives.
                 </p>
@@ -146,7 +146,7 @@ const Footer = () => {
 
       {/* Fixed Shape */}
       <div className="fixed-shape-left">
-        <img src="img/shape/5.png" alt="Shape" />
+        <img src="/img/shape/5.png" alt="Shape" />
       </div>
     </footer>
   );

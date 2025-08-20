@@ -7,7 +7,7 @@ import ServicesTypes from "./ServicesTypes/ServicesTypes";
 import Partners from "./Partners/Partners";
 import Blog from "./Blog/Blog";
 import "./Home.css";
-
+import Projects from "../ProjectsEvents/Projects";
 
 const Home = () => {
   return (
@@ -16,6 +16,7 @@ const Home = () => {
       <Services />
       <ServicesTypes />
       <Partners />
+      <Projects />
       <Blog />
     </>
   );

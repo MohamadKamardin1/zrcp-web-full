@@ -21,11 +21,11 @@ const Service= () => {
             <div className="style-three-item item">
               <div
                 className="shape"
-                style={{ backgroundImage: "url(/assets/img/shape/21.png)" }}
+                style={{ backgroundImage: "url(//img/shape/21.png)" }}
               ></div>
               <h4>
                 <a
-                  href="/assets/pdf/economic_and_digital_transformation_research.pdf"
+                  href="/pdf/economic_and_digital_transformation_research.pdf"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -41,11 +41,11 @@ const Service= () => {
             <div className="style-three-item item active">
               <div
                 className="shape"
-                style={{ backgroundImage: "url(/assets/img/shape/21.png)" }}
+                style={{ backgroundImage: "url(//img/shape/21.png)" }}
               ></div>
               <h4>
                 <a
-                  href="/assets/pdf/public_research.pdf"
+                  href="/pdf/public_research.pdf"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -61,11 +61,11 @@ const Service= () => {
             <div className="style-three-item item">
               <div
                 className="shape"
-                style={{ backgroundImage: "url(/assets/img/shape/21.png)" }}
+                style={{ backgroundImage: "url(//img/shape/21.png)" }}
               ></div>
               <h4>
                 <a
-                  href="/assets/pdf/social_protection.pdf"
+                  href="/pdf/social_protection.pdf"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -80,7 +80,7 @@ const Service= () => {
 
       <div
         className="shape-bottom"
-        style={{ backgroundImage: "url(/assets/img/shape/33.png)" }}
+        style={{ backgroundImage: "url(//img/shape/33.png)" }}
       ></div>
     </div>
   );
